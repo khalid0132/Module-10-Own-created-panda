@@ -1,14 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: beige;
+}
+button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border: none;
+}
+#home, #categories, #shoes, #backpack, #subscribe{
+    padding-top: 50px;
+}
 .banner{
-    background: #fceae8;
+    background: lightblue;
     border-radius: 10px;
+    color: blue;
 }
 .sub{
     height: 300px;
-    background: #fceae8;
+    background: lightblue;
     border-radius: 10px;
 }
 .sub p{
     margin: 0;
     padding: 0;
     color: gray;
+}
+.categories1, .categories2, .categories3{
+    border-radius: 12px;
+}
+.categories1{
+    background: orange;
+}
+#categories img{
+    width: 100px;
+}
+.categories2{
+    background: #da70d6;
+}
+.categories3{
+    background: #0000ff;
+}
+
+/*  */
+.shoe{
+    border-radius: 12px;
+    border: 0;
 }
