@@ -1,0 +1,14 @@
+.banner{
+    background: #fceae8;
+    border-radius: 10px;
+}
+.sub{
+    height: 300px;
+    background: #fceae8;
+    border-radius: 10px;
+}
+.sub p{
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
